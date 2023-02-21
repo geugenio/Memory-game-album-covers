@@ -91,7 +91,7 @@ const criarCarta = (cover) => {
     const back = criarElemento("div", "face back");
 
 
-    front.style.backgroundImage = `url('images/${cover}.png')`;
+    front.style.backgroundImage = `url('../images/${cover}.png')`;
     card.appendChild(front);
     card.appendChild(back);
 
